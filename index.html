@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Мир книг — Миля Бургардт</title>
+<meta name="description" content="Авторский сайт Милы Бургардт. Книги, истории и новые главы.">
+<style>
+:root{--bg:#f6f1ea;--paper:#fffdf9;--ink:#27231f;--muted:#766e65;--line:#ded5ca;--accent:#8a5d4b}
+*{box-sizing:border-box} html{scroll-behavior:smooth}
+body{margin:0;background:linear-gradient(180deg,#f6f1ea,#fffdf9 48%,#f2ece5);color:var(--ink);font-family:Georgia,"Times New Roman",serif;line-height:1.7}
+header{min-height:82vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:70px 22px;background:radial-gradient(circle at 50% 35%,#fffdf9 0,#f6f1ea 52%,#eee5dc 100%)}
+.hero{max-width:850px}.eyebrow{letter-spacing:.28em;text-transform:uppercase;font:12px Arial,sans-serif;color:var(--accent)}
+h1{font-size:clamp(48px,10vw,92px);font-weight:400;letter-spacing:.03em;margin:15px 0 4px}
+.subtitle{font-size:22px;color:var(--muted);margin:0 auto 30px}
+.quote{font-size:21px;font-style:italic;max-width:650px;margin:0 auto 38px}
+nav{position:sticky;top:0;z-index:5;background:rgba(255,253,249,.94);backdrop-filter:blur(10px);border-bottom:1px solid var(--line);display:flex;justify-content:center;gap:28px;padding:13px 15px;font:13px Arial,sans-serif}
+nav a{color:var(--ink);text-decoration:none}nav a:hover{color:var(--accent)}
+main{max-width:1100px;margin:auto;padding:75px 22px}section{margin-bottom:90px}
+h2{font-size:38px;font-weight:400;text-align:center;margin:0 0 14px}.lead{text-align:center;color:var(--muted);max-width:650px;margin:0 auto 40px}
+.books{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:30px}
+.card{background:var(--paper);border:1px solid var(--line);padding:20px;box-shadow:0 12px 35px rgba(60,45,30,.08);border-radius:4px}
+.cover{width:100%;aspect-ratio:3/4;object-fit:cover;display:block;background:#eee}
+.card h3{font-size:25px;font-weight:400;margin:20px 0 4px}.status{font:11px Arial,sans-serif;text-transform:uppercase;letter-spacing:.12em;color:var(--accent)}
+.card p{color:#5e5750}.button{display:inline-block;padding:10px 18px;border:1px solid var(--accent);color:var(--accent);text-decoration:none;font:13px Arial,sans-serif;margin-top:5px}.button:hover{background:var(--accent);color:white}
+.about{max-width:720px;margin:auto;text-align:center;font-size:18px}
+.note{background:#f1e9e0;border-left:3px solid var(--accent);padding:22px 25px;max-width:760px;margin:30px auto;color:#554c45}
+.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}.gallery img{width:100%;height:300px;object-fit:cover}
+footer{text-align:center;padding:45px 20px;border-top:1px solid var(--line);color:var(--muted);font:13px Arial,sans-serif}
+@media(max-width:600px){nav{gap:14px;font-size:11px;overflow:auto;justify-content:flex-start}h2{font-size:31px}.quote{font-size:18px}}
+</style>
+</head>
+<body>
+<header id="home">
+  <div class="hero">
+    <div class="eyebrow">авторский сайт</div>
+    <h1>Мир книг</h1>
+    <p class="subtitle">Миля Бургардт</p>
+    <p class="quote">«Добро пожаловать в мир историй, которые только начинают становиться настоящими.»</p>
+  </div>
+</header>
+
+<nav>
+  <a href="#books">Книги</a><a href="#about">Об авторе</a><a href="#updates">Новости</a><a href="#gallery">Иллюстрации</a>
+</nav>
+
+<main>
+<section id="books">
+  <h2>Мои книги</h2>
+  <p class="lead">Здесь будут появляться мои истории. Книги находятся в процессе написания, поэтому этот раздел будет постепенно расти вместе с ними.</p>
+  <div class="books">
+    <article class="card">
+      <img class="cover" src="images/book-1.png" alt="Обложка книги Любовь через боль">
+      <h3>Любовь через боль</h3>
+      <div class="status">В процессе</div>
+      <p>История Мили, Льва и событий, которые постепенно меняют их жизнь.</p>
+      <a class="button" href="https://www.wattpad.com/1655483558?utm_source=ios&utm_medium=link&utm_content=share_reading&wp_page=reading&wp_uname=MilaZebrator" target="_blank" rel="noopener">Читать на Wattpad</a>
+    </article>
+    <article class="card">
+      <img class="cover" src="images/book-2.png" alt="Обложка второй книги">
+      <h3>То, чего я долго не могла понять</h3>
+      <div class="status">В процессе</div>
+      <p>Новая история, которая постепенно раскрывается вместе с автором и читателями.</p>
+      <a class="button" href="https://www.wattpad.com/1660482998?utm_source=ios&utm_medium=link&utm_content=share_reading&wp_page=reading&wp_uname=MilaZebrator" target="_blank" rel="noopener">Читать на Wattpad</a>
+    </article>
+  </div>
+  <div class="note"><strong>Новые главы появятся здесь.</strong><br>Этот сайт будет обновляться по мере того, как будут появляться новые главы, истории и иллюстрации.</div>
+</section>
+
+<section id="about">
+  <h2>Об авторе</h2>
+  <div class="about">
+    <p><strong>Миля Бургардт</strong> — начинающий автор, который создаёт собственные истории, персонажей и миры.</p>
+    <p>Этот сайт — место, где мои книги могут постепенно собираться в одну большую книжную вселенную.</p>
+  </div>
+</section>
+
+<section id="updates">
+  <h2>Новости</h2>
+  <p class="lead">Здесь можно будет рассказывать читателям о новых главах, новых книгах и важных событиях.</p>
+  <div class="note">✨ <strong>Сайт только начинает свой путь.</strong><br>Следите за обновлениями — новые материалы будут добавляться постепенно.</div>
+</section>
+
+<section id="gallery">
+  <h2>Иллюстрации</h2>
+  <p class="lead">Некоторые изображения, связанные с моими историями.</p>
+  <div class="gallery">
+    <img src="images/book-3.png" alt="Иллюстрация">
+    <img src="images/book-4.png" alt="Иллюстрация">
+  </div>
+  <div class="note">Примечание: некоторые иллюстрации к книгам созданы с помощью искусственного интеллекта ChatGPT.</div>
+</section>
+</main>
+
+<footer>© Миля Бургардт · «Мир книг»</footer>
+</body>
+</html>
